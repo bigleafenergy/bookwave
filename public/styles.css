@@ -4,6 +4,10 @@
   justify-items: space-between;
 }
 
+.margin{
+ margin: 50px 100px;
+}
+
 .container {
   margin: 50px 100px;
   height: 100vh;

@@ -9,8 +9,8 @@ sections.forEach((section) => {
 
   //create a PIXI app
   let app = new PIXI.Application({
-    width: 600,
-    height: 800,
+    width: 500,
+    height: 700,
     transparent: true,
   })
 
@@ -38,8 +38,8 @@ sections.forEach((section) => {
     
     poster.x = 250
     poster.y = 350
-    poster.width = 500
-    poster.height = 700
+    poster.width = 400
+    poster.height = 600
     poster.interactive = true
 
 

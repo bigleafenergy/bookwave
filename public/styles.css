@@ -1,36 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 
-.flex{
+.flex {
   display: flex;
   flex-direction: row;
   justify-items: space-between;
 }
 
-.margin{
- margin: 50px 100px;
+.margin {
+  margin: 50px 100px;
+}
+body {
+  overflow-y: hidden;
 }
 
 .container {
   margin: 50px 100px;
   height: 90vh;
   width: max-content;
+  /* display: flex;
+  flex-direction: row; */
 }
 
-section img{
-  height: 80vh;
-  padding: 0 50px;
+section img {
+  height: 100vh;
+  padding: 20px 50px;
 }
-
 
 .text-lg {
-font-family: 'IBM Plex Mono', monospace;
-font-size: 40px;
-line-height: 1.5;
-position:fixed;
-left: 50px;
-top: 50px;
-z-index: 1;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 40px;
+  line-height: 1.5;
+  position: fixed;
+  left: 50px;
+  top: 40px;
+  z-index: 1;
 }
-
-
-
